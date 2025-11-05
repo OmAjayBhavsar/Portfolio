@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Om's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Om's Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <p class="contact-intro">
+          Have a project, opportunity, or just want to connect? Send me a message and I’ll get back to you as soon as possible.
+        </p>
+
+        <div class="contact-details">
+          <p><strong>Email: </strong> <a href="mailto:omajayb2002@gmail.com">omajayb2002@gmail.com</a></p>
+          <p><strong>Phone:</strong> +4915772106060</p>
+          <p><strong>Address:</strong> Ankerstraße 12, 39124, Magdeburg, Germany</p> 
+        </div>
+
+        <form action="https://formspree.io/f/manlggqn" method="POST">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <p class="confirmation-note">📩 You'll receive a confirmation after sending.</p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+      <p>© 2025 Om Ajay Bhavsar. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
