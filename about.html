@@ -1,69 +1,132 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Me - Om's Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Om Ajay Bhavsar, Computer Engineering student at Otto-von-Guericke University Magdeburg.">
+  <title>About Me | Om Ajay Bhavsar</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <h1>Om's Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+
+<header>
+  <div class="container">
+    <h1>Om Ajay Bhavsar</h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="about">
+
+    <div class="profile-container">
+      <img src="images/om.jpg"
+           alt="Om Ajay Bhavsar"
+           class="profile-pic">
     </div>
-  </header>
 
-  <main>
-    <section class="about">
-      <div class="about-container">
-        <div class="profile-container">
-          <img src="images/om.jpg" alt="Om's Profile Picture" class="profile-pic" />
-        </div>
-        <h2>About Me</h2>
-        <p>I’m Om Ajay Bhavsar, a Computer Engineering student at Otto-von-Guericke University, Magdeburg. With a solid foundation in both computer science and applied engineering, I bring a unique interdisciplinary approach to problem-solving.</p>
-        <p>I’m passionate about full-stack development, AI, cloud technologies, and building tools that create real-world impact. I’ve developed projects ranging from student systems to finance trackers and AI bots.</p>
-        <p>I enjoy contributing to tech communities, mentoring others, and collaborating on impactful solutions. Outside of tech, I’m involved in leadership and volunteering networks like AIESEC.</p>
+    <h2>About Me</h2>
 
-        <h3>Education</h3>
-        <ul>
-          <li><strong>B.Sc. in Computer Engineering</strong> – Otto-von-Guericke University, Magdeburg (Expected: 2027)</li>
-        </ul>
+    <p>
+      I'm Om Ajay Bhavsar, a B.Sc. Computer Engineering student at
+      Otto-von-Guericke University Magdeburg.
+    </p>
 
-        <h3>Skills</h3>
-        <ul class="skills">
-          <li>Java, Python, SQL, JavaScript, HTML5/CSS3</li>
-          <li>OOP, Git & GitHub, Algorithms & Data Structures</li>
-          <li>Currently learning: React, Spring Boot, Cloud Platforms (GCP, AWS)</li>
-        </ul>
-        <div class="link-container">
-            <a class="download-cv" href="assets/OmAjayBhavsar_DeutschCV.pdf" target="_blank" download>📄 Download CV</a>
-        <div class="external-links">
-            <a href="https://github.com/OmAjayBhavsar" target="_blank">GitHub</a> |
-            <a href="https://www.linkedin.com/in/om-ajay-bhavsar-8905a238a/" target="_blank">LinkedIn</a>
-        </div>
-        </div>
-    
+    <p>
+      My studies have given me a foundation in Java, object-oriented
+      programming, algorithms and data structures, databases, computer
+      networks and software engineering. I particularly enjoy understanding
+      how software systems are structured and turning programming concepts
+      into working applications.
+    </p>
+
+    <p>
+      I'm currently developing my skills further in Java, Git/GitHub and
+      backend development, including the fundamentals of Spring Boot.
+      My goal is to gain practical software development experience alongside
+      my studies through a working-student position or internship.
+    </p>
+
+    <p>
+      Alongside my technical studies, I gained leadership and organizational
+      experience through AIESEC in Germany, where I worked in Finance & Legal.
+    </p>
+
+    <h3>Education</h3>
+    <ul>
+      <li>
+        <strong>B.Sc. Computer Engineering (Ingenieurinformatik)</strong><br>
+        Otto-von-Guericke University Magdeburg<br>
+        2023 – Present
+      </li>
+    </ul>
+
+    <h3>Technical Skills</h3>
+    <ul class="skills">
+      <li>Java</li>
+      <li>SQL</li>
+      <li>Python</li>
+      <li>HTML5 & CSS3</li>
+      <li>JavaScript – Basics</li>
+      <li>Object-Oriented Programming</li>
+      <li>Algorithms & Data Structures</li>
+      <li>Database Systems</li>
+      <li>Git & GitHub</li>
+      <li>IntelliJ IDEA & VS Code</li>
+    </ul>
+
+    <h3>Currently Learning</h3>
+    <p>
+      Advanced Java OOP, Algorithms & Data Structures, Git/GitHub and
+      Spring Boot fundamentals.
+    </p>
+
+    <h3>Languages</h3>
+    <ul>
+      <li>German – C1</li>
+      <li>English – Fluent</li>
+      <li>Hindi – Native</li>
+      <li>Marathi – Native</li>
+    </ul>
+
+    <div class="link-container">
+      <a class="download-cv"
+         href="assets/OmAjayBhavsar_DeutschCV.pdf"
+         target="_blank">
+         Download CV
+      </a>
+
+      <div class="external-links">
+        <a href="https://github.com/OmAjayBhavsar"
+           target="_blank"
+           rel="noopener noreferrer">GitHub</a>
+
+        <a href="https://www.linkedin.com/in/omajaybhavsar"
+           target="_blank"
+           rel="noopener noreferrer">LinkedIn</a>
       </div>
-    </section>
-  </main>
+    </div>
 
-   <footer>
-    <p>© 2025 Om Ajay Bhavsar. All rights reserved.</p>
-  </footer>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Om Ajay Bhavsar. All rights reserved.</p>
+</footer>
+
 </body>
-
 </html>
